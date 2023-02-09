@@ -113,27 +113,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Background Music
-    clip: {fileID: 8300000, guid: 99bac0e1e5a244d41adb92d1cbec9d7a, type: 3}
-    loop: 1
-    noDup: 1
+  - source: {fileID: 0}
     volume: 0.6
     pitch: 1
-    source: {fileID: 0}
-  - name: Mine Explosion
-    clip: {fileID: 8300000, guid: 7e864d41c620d7d4e8ed0e830e25a2a4, type: 3}
-    loop: 0
-    noDup: 0
-    volume: 0.8
-    pitch: 1
-    source: {fileID: 0}
-  - name: Thruster
-    clip: {fileID: 8300000, guid: 89e3c4bf770a51b46a8bb3f2ac71442c, type: 3}
     loop: 1
     noDup: 1
+  - source: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    noDup: 0
+  - source: {fileID: 0}
     volume: 0.2
     pitch: 0.8
-    source: {fileID: 0}
+    loop: 1
+    noDup: 1
 --- !u!1 &1979163111947962676
 GameObject:
   m_ObjectHideFlags: 0
