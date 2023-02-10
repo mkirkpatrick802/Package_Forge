@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a9f6c91c633e0794faec294a6a9b87b4
+guid: 897f399143beb9147adbecdb66565114
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -105,11 +105,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlaygroundSpriteSheet_0
+      name: GroundSpriteSheet_0
       rect:
         serializedVersion: 2
         x: 32
-        y: 288
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -119,18 +119,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1be4eef3d2be1b46a4c13a0aba71e02
-      internalID: -1035196780
+      spriteID: 0a6007ce4186752479b70809c38000d5
+      internalID: 778502187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlaygroundSpriteSheet_1
+      name: GroundSpriteSheet_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 256
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -140,8 +140,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ba40d454a9a2004fbc6f679775b5ede
-      internalID: 844213154
+      spriteID: 5918476216747534ab8e4520a1b5f670
+      internalID: 955814040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36211473f9c37a948be6193c455af9f4
+      internalID: 42475988
       vertices: []
       indices: 
       edges: []
@@ -157,8 +178,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlaygroundSpriteSheet_0: -1035196780
-      PlaygroundSpriteSheet_1: 844213154
+      GroundSpriteSheet_0: 778502187
+      GroundSpriteSheet_2: 42475988
+      GroundSpriteSheet_1: 955814040
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
