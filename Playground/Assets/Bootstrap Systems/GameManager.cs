@@ -5,21 +5,25 @@ public class GameManager : MonoBehaviour
 {
     public static event Action<GameStates> GameStateChanged;
 
+    private InputTranslator _inputTranslator;
+
     private GameStates _currentState;
 
     private void Awake()
     {
-
+        _inputTranslator = gameObject.transform.parent.GetComponentInChildren<InputTranslator>();
     }
 
     private void OnEnable()
     {
         SceneLoader.NewSceneLoading += NewScene;
+        _inputTranslator.QuitGame += Quit;
     }
 
     private void OnDisable()
     {
         SceneLoader.NewSceneLoading -= NewScene;
+        _inputTranslator.QuitGame -= Quit;
     }
 
     public void ChangeGameState(GameStates newState)
@@ -39,13 +43,9 @@ public class GameManager : MonoBehaviour
 
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape)) Quit();
-    }
-
     private void Quit()
     {
+        print("Quit");
         Application.Quit();
     }
 
